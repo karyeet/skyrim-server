@@ -1,6 +1,6 @@
 FROM tiltedphoques/multiarch-builder:latest as builder
 
-ARG REPO=https://github.com/tiltedphoques/TiltedEvolution.git
+ARG REPO=https://github.com/karyeet/skyrim-server.git
 ARG BRANCH=master
 
 WORKDIR /home/builder
